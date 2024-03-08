@@ -54,10 +54,10 @@ const Sidebar = () => {
           padding: "5px 35px 5px 20px !important",
         },
         "& .pro-inner-item:hover": {
-          color: "#868dfb !important",
+          color: "#4c57ec !important",
         },
         "& .pro-menu-item.active": {
-          color: "#6870fa !important",
+          color: "#4cceac!important",
         },
       }}
     >
@@ -92,18 +92,18 @@ const Sidebar = () => {
 
           {/* USER */}
           {!isCollapsed && (
-            <Box mb="25px">
+            <Box mb="5px">
               <Box display="flex" justifyContent="center" alignItems="center">
                 <img
                   alt="profile-user"
-                  width="100px"
-                  height="100px"
-                  src={`../../assets/user.png`}
-                  style={{ cursor: "pointer", borderRadius: "50%" }}
+                  width="200px"
+                  height="80px"
+                  src={`../../assets/helios4.png`}
+                  style={{ cursor: "pointer", borderRadius: "0%" }}
                 />
               </Box>
               <Box textAlign="center">
-                <Typography
+                {/* <Typography
                   variant="h2"
                   color={colors.grey[100]}
                   fontWeight="bold"
@@ -113,7 +113,7 @@ const Sidebar = () => {
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
                   VP Admin
-                </Typography>
+                </Typography> */}
               </Box>
             </Box>
           )}
